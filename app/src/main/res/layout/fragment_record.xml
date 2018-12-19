@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.RecordFragment">
+
+    <LinearLayout
+        android:id="@+id/ln_chrom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ln_bottom"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Chronometer
+            android:id="@+id/chron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Klik tombol untuk memulai merekam"
+            android:textColor="@color/ColorBlack"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:paddingBottom="16dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btn_record"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_mic_white_24dp"
+                android:background="@drawable/circular_rounded_corner_green"/>
+            <ImageButton
+                android:id="@+id/btn_stop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circular_rounded_corner_red_2"
+                android:src="@drawable/ic_stop_white_24dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

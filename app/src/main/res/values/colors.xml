@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="Colorbluegrey_300">#90A4AE</color>
+    <color name="Colorbluegrey_700">#455A64</color>
+    <color name="Colorbluegray_500">#607D8B</color>
+    <color name="Colorblue50_900">#0D47A1</color>
+
+    <color name="colorTextHint">#e1e1e1</color>
+    <color name="ColorWhite">#ffffff</color>
+    <color name="ColorBlack">#000000</color>
+
+    <color name="ColorSilver">#9b9b9b</color>
+    <color name="ColorSilver2">#E9ECEC</color>
+    <color name="ColorSilver3">#e0e0e0</color>
+
+    <color name="Colororange_500">#FF9800</color>
+    <color name="Colorteal_300">#4DB6AC</color>
+    <color name="Colorteal_400">#26A69A</color>
+
+    <color name="Colorgreen50_200">#A5D6A7</color>
+    <color name="Colorgreen50_900">#1B5E20</color>
+    <color name="Colorred50_200">#EF9A9A</color>
+    <color name="ColorWhiteTransparent">#80ffffff</color>
+</resources>
